@@ -1,0 +1,16 @@
+---
+chatRoom: "charts"
+issueProjectName: "charts"
+buildName: "helm-charts"
+codeReview: true
+links:
+  Git: "https://github.com/jeremypogue/charts-1.git"
+  Job: "http://jenkins.default.itc3.io/job/helm-charts"
+  Production: "http://100.100.3.146:80/kubernetes/pods?namespace=default-prod"
+  Room: "http://letschat.default.itc3.io/#!/room/58eaf5709a98290012ece992"
+  Staging: "http://100.100.3.146:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://100.100.3.146:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-prod"
